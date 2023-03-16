@@ -1,0 +1,101 @@
+/* 공통 */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+
+/* 레이아웃 */
+.mypage-head{
+    display: flex;
+}
+
+.mypage-contents{
+    display: flex;
+}
+
+.area-over{
+    display: flex;
+}
+
+
+/* ---------헤드--------------------------------------- */
+
+.mypage-head h1 {
+    margin-left: 40px;
+}
+
+.grd-box {
+    margin-left: 170px;
+    padding-top: 10px;
+}
+
+.grd-box p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* ----------사이드---------------------------------------- */
+
+
+/* -----------내용-------------------------------------------*/
+.contents-right {
+    margin-left: 119px;
+}
+
+a.btnMore {
+    padding-top: 10px;
+}
+
+/* 주문/배송 조회 */
+.mypage-step {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F1F1F1;
+    min-height: 200px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+.title-area2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mypage-step li {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 찜목록 */
+.title-area3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cate_prd_list {
+    min-height: 200px;
+    border-top: 1px solid;  
+    border-bottom: 1px solid lightgray;
+    margin-top: 0px;
+
+}
+/* 1:1문의내역 및 리뷰작성내역*/
+.title-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nodataaa {  
+    min-height: 200px;
+    border-top: 1px solid;
+    border-bottom: 1px solid lightgray;
+    margin-top: 0px;
+}
+
+
